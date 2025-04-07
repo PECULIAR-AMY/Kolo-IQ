@@ -1,10 +1,13 @@
 import './App.css'
+import BankSync from './components/BankSync'
+//  import LandingPage from './components/LandingPage'
 
 function App() {
 
   return (
       <div>
-       <p>hi</p>
+       {/* <LandingPage />  */}
+        <BankSync /> 
       </div>
     
   )
